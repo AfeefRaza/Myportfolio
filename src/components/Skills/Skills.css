@@ -1,0 +1,32 @@
+.skills__list {
+  /* max-width: 450px; */
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.skills__list-item {
+  height: 5rem;
+  display: flex;
+  /* flex-direction: row; */
+  margin: 0.5rem;
+
+
+}
+.skill_names{
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.skills__list-item  p{
+  font-size: 1rem;
+
+  margin-left: 0.5rem;
+  
+}

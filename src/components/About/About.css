@@ -1,0 +1,50 @@
+.about {
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.about img {
+  border-radius: 50rem;
+}
+
+.about__name {
+  color: var(--clr-primary);
+}
+
+.about__role {
+  margin-top: 1.2em;
+}
+
+.about__desc {
+  font-size: 1rem;
+  max-width: 100%;
+}
+
+.about__desc,
+.about__contact {
+  margin-top: 2.4em;
+  
+}
+
+.about .link--icon {
+  margin-right: 0.8em;
+}
+
+.about .btn--outline {
+  margin-right: 1em;
+}
+/* .contactinfo a:first-child {
+  margin-right: 2vw;
+} */
+.contactinfo{
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  column-gap: 2vw;
+}
+@media (max-width: 600px) {
+  .app .about {
+    align-items: flex-start;
+    margin-top: 2em;
+  }
+}
